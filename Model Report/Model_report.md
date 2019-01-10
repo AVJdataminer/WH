@@ -1,4 +1,4 @@
-# WalletHub Data Scientist Test Modeling Project Report
+# Callable Random Forest Regression Modeling Project Report
 
 **Aiden V. Johnson**   
 **December 17, 2018**  
@@ -39,16 +39,16 @@ The final model chosen was the Random Forest regression. The final step in the m
 
  4. Split into Test and Train data subsets
  5. Train Lasso Regression models  
-  5.1. Trained via alpha cross validation optimization on train transformed into the 96 principle components making up 95% of the variance
-  5.2.  Evaluate model RMSE with test set transformed into the 96 principle components    
-  5.3.  Concatenate 96 PC's + train set -> Trained Lasso via cv approach  
-  5.4.  Evaluate model RMSE with 96 PC's + test set    
+ 5.1. Trained via alpha cross validation optimization on train transformed into the 96 principle components making up 95% of the variance
+ 5.2.  Evaluate model RMSE with test set transformed into the 96 principle components    
+ 5.3.  Concatenate 96 PC's + train set -> Trained Lasso via cv approach  
+ 5.4.  Evaluate model RMSE with 96 PC's + test set    
 
-6. Train RandomForestRegressor models  
-  6.1. Trained via grid search cross validation optimization on the training set transformed into the 96 principle components making up 95% of the variance
-  6.2.  Evaluate model RMSE with test set transformed into the 96 principle components
-  6.3.  Concatenate 96 PC's + train set -> Trained RFR via cv approach  
-  6.4.  Evaluate model RMSE with 96 PC's + test set  
+ 6. Train RandomForestRegressor models  
+ 6.1. Trained via grid search cross validation optimization on the training set transformed into the 96 principle components making up 95% of the variance
+ 6.2.  Evaluate model RMSE with test set transformed into the 96 principle components
+ 6.3.  Concatenate 96 PC's + train set -> Trained RFR via cv approach  
+ 6.4.  Evaluate model RMSE with 96 PC's + test set  
 
 7. Identified final model based on best performance metrics  
 
