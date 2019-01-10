@@ -1,9 +1,9 @@
-# Random Forest Regression Modeling Project Report
+# Callable Random Forest Regression Modeling Project Report
 
 **Aiden V. Johnson**   
 **December 17, 2018**  
 **Project Overview**  
-**Goal:** Create a callable model to predict the response variable y 
+**Goal:** Create a callable model to predict the response variable y   
 **Data Sources:**
 A csv file containing 100,000 rows and 304 labeled features: x001 to x304  
 **Classification or Regression Model:** Regression    
